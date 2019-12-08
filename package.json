@@ -1,0 +1,36 @@
+{
+  "name": "styled-modern-css-reset",
+  "version": "1.0.4",
+  "description": "A styled-components wrapper for modern-css-reset",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "babel -d dist src",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollonian/styled-modern-css-reset.git"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "modern"
+  ],
+  "author": "Abhishek Warokar <abhiwarokar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apollonian/styled-modern-css-reset/issues"
+  },
+  "homepage": "https://github.com/apollonian/styled-modern-css-reset#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "modern-css-reset": "^1.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  }
+}
